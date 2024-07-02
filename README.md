@@ -1,4 +1,4 @@
-# Github Actions Recipe Book
+# Github Actions Recipes
 
 ## Summary
 This GitHub repository demonstrates different GitHub workflows with various use-cases for a CI/CD workflow. The goal of this project is to showcase several ways GitHub Actions can be applied for various tasks and DevOps best practices. Whether you are automating your development process, setting up continuous integration, deploying applications, or managing infrastructure, this repository provides practical examples and templates to help you get started.
