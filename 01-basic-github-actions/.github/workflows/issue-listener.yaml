@@ -1,0 +1,14 @@
+name: Issue listener
+on:
+    issues:
+        types: [opened, edited, deleted, transferred, pinned, unpinned, closed, reopened, assigned, unassigned, labeled, unlabeled, locked, unlocked, milestoned, demilestoned]
+jobs:
+  issue_event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Output event details
+        run: echo "Event details: ${{ toJson(github.event) }}"
+            
