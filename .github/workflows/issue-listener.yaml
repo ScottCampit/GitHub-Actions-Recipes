@@ -13,4 +13,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Output event details
-        run: echo "Event details: ${{ toJson(github.event) }}"
+        run: |
+          echo "Event details: ${{ toJson(github.event) }}"
